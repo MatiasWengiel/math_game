@@ -5,4 +5,4 @@ bob = Player.new("Bob")
 ann = Player.new("Ann")
 
 game = Game.new(bob, ann)
-game.prompt(bob)
+game.ask_question(bob)
